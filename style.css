@@ -1,0 +1,6 @@
+body{
+    background: rgba(105, 105, 248);
+}
+.alerta p:before{
+    content: #9888;
+}
