@@ -1,6 +1,28 @@
 body{
-    background: rgba(105, 105, 248);
+    background-color: rgb(6, 26, 181);
+    border: 30px solid;
+    width: 97%;
+    height: 980px;
+    margin: 5px;
+    border-image-source: url(imagenes/electrico.webp);
+    border-image-slice: 05%;
+    border-image-repeat: stretch;
+   
 }
-.alerta p:before{
-    content: #9888;
+
+.muneco{
+    border: solid;
+    border-radius: 25px;
+    position: absolute;
+    left: 73%;
+    top: 05% ;
+    height: 900px;
+    text-align: center;
+}
+.titulo-principal{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 7px;
+    padding: 40px 0 0 0;
+    
 }
