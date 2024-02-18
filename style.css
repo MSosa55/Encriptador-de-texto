@@ -1,28 +1,88 @@
 body{
-    background-color: rgb(6, 26, 181);
-    border: 30px solid;
-    width: 97%;
-    height: 980px;
-    margin: 5px;
-    border-image-source: url(imagenes/electrico.webp);
-    border-image-slice: 05%;
-    border-image-repeat: stretch;
-   
+   background: linear-gradient(red, pink);
+}
+header{
+    height: 590px;
+   text-align: center;
+   position: relative;
+  
 }
 
-.muneco{
-    border: solid;
-    border-radius: 25px;
-    position: absolute;
-    left: 73%;
-    top: 05% ;
-    height: 900px;
-    text-align: center;
+.imagen-kanji{
+    width: 450px;
+    height: 450px;
+    border: 16px solid;
+    border-radius: 0% 25% 0% 25%;
+    margin: 50px;
+    display: block;
+    background-color: rgb(198, 186, 186);
 }
 .titulo-principal{
-    font-size: 40px;
-    font-weight: bold;
-    margin: 7px;
-    padding: 40px 0 0 0;
+    position: absolute;
+    font-size: 200px;
+    display: inline;
+    top: 40%;
+  
+    
     
 }
+.titulo-principal:before{
+    content: "\1F513";
+}
+.titulo-principal:after{
+    content: "\1F512";
+}
+
+main{
+   height: 1450px;
+   border: 10px solid;
+   position: relative;
+  
+  
+   
+}
+.cajaTexto1{
+    position: absolute;
+    width: 1700px;
+    height: 350px;
+    font-size: 50px;
+    top: 200px;
+    left: 200px;
+}
+.cajaTexto2{
+    position: absolute;
+    width: 1700px;
+    height: 350px;
+    font-size: 50px;
+    top: 200px;
+    right: 200px;
+}
+
+.imagen-main{
+ position: absolute;
+ display: inline-block;
+ top: 03%;
+ right: 30%;
+ width: 1900px;
+ height: 1900px;
+ 
+}
+footer{
+ font-style: italic;
+ text-align: center;
+
+ padding: 110px;
+}
+.imagen-logo{
+   
+    display: inline;
+    top: 1px;
+    width: 1000px;
+    height: 200px;
+}
+
+.copi{
+    padding: 20px;
+    font-size: 50px;  
+}
+
