@@ -10,16 +10,18 @@
 <body>
     <header>
         <img class="logo-alura" src="imagenes/Logo2x.webp">
-        <h1 class="titulo-principal"> Encriptador de Texto</h1>
+        <h1 class="titulo-principal">Encriptador de texto</h1>
     
     </header>
     <main>
         <section class="seccion1">
+            <form action="">
             <div class="contenedorCajaTexto">
             <textarea placeholder="ingrese el texto aqui" class="cajaTexto1"></textarea>
             <p class="textoAdvertencia"> &#9888 Solo letras minúsculas y sin acentos</p>
             <div class="contenedorBotones">
-                <input type="button" class="botonEncriptar" value=" &#128274 Encriptar">
+                <button onclick="accionEncriptar()" class="botonEncriptar">&#128274 Encriptar</button>
+
                 <input type="button" class="botonDesencriptar" value=" &#128275 Desencriptar">
               </div>
             <textarea placeholder="Ningun mensaje encontrado" class="cajaTexto2"></textarea>
@@ -28,7 +30,7 @@
                 <input type="button" class="botonLimpiar" value="&#128259Limpiar">
              </div>
             </div>
-          
+          </form>
         </section>
       
     <img class="imagen-main" src="imagenes/robot-sin-fondo.png">
@@ -41,6 +43,6 @@
         </div>
          
     </footer>
-  
+  <script src="app.js"></script>
 </body>
 </html>
